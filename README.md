@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Proposal</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            background-color: #87CEEB;
+            text-align: center;
+            margin: 50px;
+        }
+
+        #proposal-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: auto;
+        }
+
+        #heart-img {
+            font-size: 50px;
+            animation: heartbeat 1s infinite;
+        }
+
+        #message {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        #proposal-button {
+            background-color: #ff4081;
+            color: #fff;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        #proposal-button:hover {
+            background-color: #e64a8e;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="proposal-container">
+        <h1>A Question from my Heart</h1>
+        <div id="heart-img">❤️</div>
+        <p id="message">Hey Sakshi!! 🌟</p>
+        <p id="message">Life is like a box of chocolates, and you are my favorite piece.</p>
+        <p id="message">Would you be my forever Valentine?</p>
+        <button id="proposal-button" onclick="showResponse()">Yes, absolutely!</button>
+    </div>
+
+    <script>
+        function showResponse() {
+            alert("Yay! Our adventure together is about to get even more amazing! 💖");
+        }
+    </script>
+</body>
+</html>
 
